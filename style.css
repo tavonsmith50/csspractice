@@ -1,6 +1,6 @@
-#body{
-    background-color: #kee
-    font-familly: Helvetica, Arial, sans-serif; 
+body{
+    background-color: #eeeeee;
+    font-family: Helvetica, Arial, sans-serif; 
 }
 
 a{
@@ -35,7 +35,7 @@ h1, h2, h3 {
 }
 
 #nav ul {
-    liststyle-type: none;
+    list-style-type: none;
     padding: 0;
 }
 
@@ -43,6 +43,7 @@ h1, h2, h3 {
 #nav.selected{
     font-weight: bold;
 }
+
 #main{
     width: 600px;
     float: right;
@@ -51,7 +52,7 @@ h1, h2, h3 {
 #footer{
     clear: both;
     padding: 10px;
-    background-color: #999999
+    background-color: #999999;
     color: white;
     text-align: right;
 }
